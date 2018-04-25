@@ -7,12 +7,12 @@ public class Main {
 
     public static void main(String [] args){
 
-        Appartment appartmentSwitch = new Appartment();
-        appartmentSwitch.turnOn(new Lamp());
-        appartmentSwitch.turnOn(new TV());
+        Appartment aptSwitch = new Appartment();
+        aptSwitch.turnOn(new Lamp());
+        aptSwitch.turnOn(new TV());
 
-        Building buildingSwitch = new Building();
-        buildingSwitch.turnOff(new Lamp());
-        buildingSwitch.turnOff(new TV());
+        Building bldSwitch = new Building();
+        bldSwitch.turnOff(new Lamp());
+        bldSwitch.turnOff(new TV());
     }
 }
