@@ -7,7 +7,7 @@ public class Main {
 
     public static void main(String [] args){
 
-        Appartment aptSwitch = new Appartment();
+        Apartment aptSwitch = new Apartment();
         aptSwitch.turnOn(new Lamp());
         aptSwitch.turnOn(new TV());
 
